@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F6EFE0;
+  color: #2A2118;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Fraunces', serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* visible keyboard focus ring, on top of any custom outline removal */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #C99A2E;
+  outline-offset: 3px;
+}
+
+.grain-bg {
+  background-image: radial-gradient(circle at 1px 1px, rgba(42,33,24,0.06) 1px, transparent 0);
+  background-size: 18px 18px;
+}
