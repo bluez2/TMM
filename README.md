@@ -1,6 +1,6 @@
-# Selam Mission — Ethiopia ministry website
+# Transformation mission ministy — Ethiopia ministry website
 
-A starter React site for a mission ministry based in Ethiopia. "Selam Mission" and all
+A starter React site for a mission ministry based in Ethiopia. "Transformation mission ministy" and all
 copy in the site are **placeholders** — swap them for your real organization name, story,
 and photos.
 
@@ -50,7 +50,7 @@ src/
 
 ## Things to do before this goes live
 
-- [ ] Replace "Selam Mission" and all placeholder copy with your real name and story.
+- [ ] Replace "Transformation mission ministy" and all placeholder copy with your real name and story.
 - [ ] Add real photos (currently there are none — the design is intentionally text/motif-led).
 - [ ] Wire up the contact form in `src/pages/Contact.jsx` to an actual email service,
       e.g. [Formspree](https://formspree.io) or [EmailJS](https://www.emailjs.com/) —

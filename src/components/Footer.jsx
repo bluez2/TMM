@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-3 mb-3">
             <CrossMotif className="w-8 h-8" radiate={false} variant="gold" />
-            <span className="font-display text-lg">Selam Mission</span>
+            <span className="font-display text-lg">Transformation mission ministy</span>
           </div>
           <p className="text-parchment/70 text-sm max-w-xs">
             Placeholder copy — replace with your ministry's real name, story, and location in Ethiopia.
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-parchment/10 py-5 text-center text-xs text-parchment/50">
-        © {new Date().getFullYear()} Selam Mission. All rights reserved.
+        © {new Date().getFullYear()} Transformation mission ministy. All rights reserved.
       </div>
     </footer>
   )

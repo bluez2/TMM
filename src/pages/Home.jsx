@@ -24,7 +24,7 @@ export default function Home() {
       <section className="relative overflow-hidden grain-bg">
         <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-16 pb-24 md:pt-24 md:pb-32 grid md:grid-cols-2 gap-12 items-center">
           <div className="relative z-10">
-            <SectionLabel>Selam Mission · Ethiopia</SectionLabel>
+            <SectionLabel>Transformation mission ministy · Ethiopia</SectionLabel>
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl leading-[1.05] text-ink">
               Faith takes root where the church already stands.
             </h1>

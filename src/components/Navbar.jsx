@@ -19,7 +19,7 @@ export default function Navbar() {
         <NavLink to="/" className="flex items-center gap-3 group" onClick={() => setOpen(false)}>
           <CrossMotif className="w-9 h-9" radiate={false} variant="forest" />
           <span className="font-display text-xl tracking-tight text-forestDeep">
-            Selam Mission
+            Transformation mission ministy
           </span>
         </NavLink>
 
