@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import CrossMotif from '../components/CrossMotif.jsx'
+import LogoMark from '../components/LogoMark.jsx'
 import SectionLabel from '../components/SectionLabel.jsx'
 
 const pillars = [
@@ -52,7 +53,7 @@ export default function Home() {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-[420px] h-[420px] rounded-full bg-gold/10 blur-2xl" />
             </div>
-            <CrossMotif className="relative w-64 h-64 md:w-80 md:h-80 animate-[spin_60s_linear_infinite]" variant="forest" />
+            <LogoMark className="relative w-64 h-64 md:w-80 md:h-80" variant="forest" />
           </div>
         </div>
       </section>

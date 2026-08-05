@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import CrossMotif from './CrossMotif.jsx'
+import LogoMark from './LogoMark.jsx'
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 py-14 grid gap-10 md:grid-cols-3">
         <div>
           <div className="flex items-center gap-3 mb-3">
-            <CrossMotif className="w-8 h-8" radiate={false} variant="gold" />
+            <LogoMark className="w-8 h-8" variant="gold" />
             <span className="font-display text-lg">Transformation mission ministy</span>
           </div>
           <p className="text-parchment/70 text-sm max-w-xs">

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import CrossMotif from './CrossMotif.jsx'
+import LogoMark from './LogoMark.jsx'
 
 const links = [
   { to: '/', label: 'Home' },
@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 bg-parchment/90 backdrop-blur border-b border-ink/10">
       <div className="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between">
         <NavLink to="/" className="flex items-center gap-3 group" onClick={() => setOpen(false)}>
-          <CrossMotif className="w-9 h-9" radiate={false} variant="forest" />
+          <LogoMark className="w-9 h-9" variant="forest" />
           <span className="font-display text-xl tracking-tight text-forestDeep">
             Transformation mission ministy
           </span>
